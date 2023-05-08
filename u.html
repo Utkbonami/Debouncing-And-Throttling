@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>el</title>
+  </head>
+  <body>
+    <h1>EL</h1>
+    <p>
+      Debouncing is a method we use to limit the number of function invocations
+      we make so that we dont invoke the function everytime we detect a
+      keystroke or change in input, instead we invoke it only after the user has
+      finished giving the input.
+    </p>
+    <button id="u">Debounced Button</button>
+    <p>
+      Throttling is a method we use to call a function at regular iuintervals
+      while the user is triggering the function invocation, instead of invoking
+      the function for every keystroke we invoke it in regular intervals to
+      detect and account for the changes in the input
+    </p>
+    <button id="t">Throttled Button</button>
+    <p>Normal function invocation looks like this</p>
+    <button id="n">Normal Button</button>
+    <script src="index.js"></script>
+  </body>
+</html>
